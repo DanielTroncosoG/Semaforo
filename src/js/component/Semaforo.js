@@ -4,10 +4,16 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
-export function Home() {
-	<div className="Semaforo">
-		<div className="LuzRoja"></div>
-		<div className="LuzAmarilla"></div>
-		<div className="LuzVerde"></div>
-	</div>
+export function Semaforo() {
+	return (
+		<>
+			<div className="Soporte"></div>
+			<div className="GranSemaforo">
+				<div className="LuzRoja"></div>
+				<div className="LuzAmarilla"></div>
+				<div className="LuzVerde"></div>
+			</div>
+			;
+		</>
+	);
 }
